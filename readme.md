@@ -6,6 +6,8 @@
 
 - Art of SQL
 
+- [SQL Performance Explained](https://sql-performance-explained.com/)
+
 - [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 
 ## Blog posts
@@ -18,3 +20,9 @@
 - [10 Postgres tips for beginners](https://postgres.ai/blog/20230722-10-postgres-tips-for-beginners)
 
 - [Choosing a Postgres Primary Key](https://supabase.com/blog/choosing-a-postgres-primary-key)
+
+- [What is the deal with NULLs?](http://thoughts.davisjeff.com/2009/08/02/what-is-the-deal-with-nulls/)
+
+## Websites and tutorials
+
+- [Modern SQL](https://modern-sql.com/)
