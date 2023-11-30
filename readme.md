@@ -23,6 +23,8 @@
 
 - [What is the deal with NULLs?](http://thoughts.davisjeff.com/2009/08/02/what-is-the-deal-with-nulls/)
 
+- [Transaction ID Wraparound in Postgres](https://blog.sentry.io/transaction-id-wraparound-in-postgres/)
+
 ## Websites and tutorials
 
 - [Modern SQL](https://modern-sql.com/)
