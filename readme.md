@@ -25,6 +25,8 @@
 
 - [Transaction ID Wraparound in Postgres](https://blog.sentry.io/transaction-id-wraparound-in-postgres/)
 
+- [Alembic: How to add a non-nullable field to a populated table](https://archive.is/JY4lq)
+
 ## Websites and tutorials
 
 - [Modern SQL](https://modern-sql.com/)
