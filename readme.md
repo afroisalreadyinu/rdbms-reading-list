@@ -12,6 +12,8 @@
 
 - [PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals)
 
+- [PostgreSQL Query Optimization: The Ultimate Guide to Building Efficient Queries 2nd ed. Edition ](https://www.amazon.com/PostgreSQL-Query-Optimization-Ultimate-Efficient/dp/B0CK5GWWQ1)
+
 ## Websites and tutorials
 
 - [PostgreSQL Exercises](https://pgexercises.com/): Nicely organized tutorial for beginner-level, PostgreSQL-flavored SQL. A single dataset is used to present the basics such as querying, joins, DML and aggregates. One shortcoming is that an old version of PostgreSQL is targeted (9.5; for example, it is assumed that columns cannot be in `group by` clauses).
@@ -43,4 +45,10 @@
 
 - [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 
+- [Debugging PostgreSQL performance, the hard way](https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/)
+
 - [Modern SQL in Open Source and Commercial Databases](https://www.slideshare.net/MarkusWinand/modern-sql)
+
+- [My Favorite PostgreSQL Queries and Why They Matter](https://severalnines.com/blog/my-favorite-postgresql-queries-and-why-they-matter)
+
+- [10 Things I Hate About PostgreSQL](https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791)
