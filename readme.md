@@ -10,11 +10,15 @@
 
 - [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 
+- [PostgreSQL 14 Internals](https://postgrespro.com/community/books/internals)
+
 ## Websites and tutorials
 
 - [PostgreSQL Exercises](https://pgexercises.com/): Nicely organized tutorial for beginner-level, PostgreSQL-flavored SQL. A single dataset is used to present the basics such as querying, joins, DML and aggregates. One shortcoming is that an old version of PostgreSQL is targeted (9.5; for example, it is assumed that columns cannot be in `group by` clauses).
 
 - [Modern SQL](https://modern-sql.com/)
+
+- [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
 
 ## Videos
 
@@ -36,3 +40,7 @@
 - [Transaction ID Wraparound in Postgres](https://blog.sentry.io/transaction-id-wraparound-in-postgres/)
 
 - [Alembic: How to add a non-nullable field to a populated table](https://archive.is/JY4lq)
+
+- [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
+
+- [Modern SQL in Open Source and Commercial Databases](https://www.slideshare.net/MarkusWinand/modern-sql)
