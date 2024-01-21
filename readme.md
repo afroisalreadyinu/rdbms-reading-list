@@ -24,7 +24,7 @@
 
 ## Videos
 
-- [Markus Winand - The Mother of all Query Languages: SQL in the 21st Century](https://www.youtube.com/watch?v=8Fb5Qgpr03g)
+- [Markus Winand - The Mother of all Query Languages: SQL in the 21st Century](https://www.youtube.com/watch?v=8Fb5Qgpr03g): This talk is on how SQL has changed through the standards published in 1999, 2003 and 2016. It is also a bit sobering as Winand mentions features present in latest SQL standard but did not yet get implemented in PostgreSQL, even after 7 years.
 
 ## Blog posts
 
@@ -47,8 +47,14 @@
 
 - [Debugging PostgreSQL performance, the hard way](https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/)
 
-- [Modern SQL in Open Source and Commercial Databases](https://www.slideshare.net/MarkusWinand/modern-sql)
+- [Modern SQL in Open Source and Commercial Databases](https://www.slideshare.net/MarkusWinand/modern-sql) is a set of slides from another talk by Markus Winand as the one linked above.
 
 - [My Favorite PostgreSQL Queries and Why They Matter](https://severalnines.com/blog/my-favorite-postgresql-queries-and-why-they-matter)
 
 - [10 Things I Hate About PostgreSQL](https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791)
+
+## Postgresql Wiki and Documentation
+
+- [Information about the SSI implementation for the SERIALIZABLE transaction isolation level in PostgreSQL](https://wiki.postgresql.org/wiki/Serializable)
+
+- [Documentation of Serializable Snapshot Isolation (SSI) in PostgreSQL compared to plain Snapshot Isolation (SI)](https://wiki.postgresql.org/wiki/SSI)
