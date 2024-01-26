@@ -2,9 +2,9 @@
 
 ## Books
 
-- The Art of PostgreSQL
+- [The Art of PostgreSQL](https://theartofpostgresql.com/)
 
-- Art of SQL
+- [The Art of SQL](https://www.oreilly.com/library/view/the-art-of/0596008945/)
 
 - [SQL Performance Explained](https://sql-performance-explained.com/)
 
@@ -14,9 +14,13 @@
 
 - [PostgreSQL Query Optimization: The Ultimate Guide to Building Efficient Queries 2nd ed. Edition ](https://www.amazon.com/PostgreSQL-Query-Optimization-Ultimate-Efficient/dp/B0CK5GWWQ1)
 
+- [PostgreSQL Query Optimization: The Ultimate Guide to Building Efficient Queries](https://www.oreilly.com/library/view/postgresql-query-optimization/9781484268858/)
+
 ## Websites and tutorials
 
 - [PostgreSQL Exercises](https://pgexercises.com/): Nicely organized tutorial for beginner-level, PostgreSQL-flavored SQL. A single dataset is used to present the basics such as querying, joins, DML and aggregates. One shortcoming is that an old version of PostgreSQL is targeted (9.5; for example, it is assumed that columns cannot be in `group by` clauses).
+
+- [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
 
 - [Modern SQL](https://modern-sql.com/)
 
@@ -28,10 +32,7 @@
 
 ## Blog posts
 
-- [10 Easy Steps to a Complete Understanding of SQL](https://blog.jooq.org/10-easy-steps-to-a-complete-understanding-of-sql/)
-
-- [Beware of JSON fields in
-  SQLAlchemy](https://amercader.net/blog/beware-of-json-fields-in-sqlalchemy/)
+- [10 Easy Steps to a Complete Understanding of SQL](https://blog.jooq.org/10-easy-steps-to-a-complete-understanding-of-sql/): This classic blog post is a good review of the most important differences of SQL and relational differences to the most commonly used class of development language, imperative languages. It's a very good starting point for developers who can't wrap their heads around SQL, and need a frame for reorienting their understanding of relational data technologies.
 
 - [10 Postgres tips for beginners](https://postgres.ai/blog/20230722-10-postgres-tips-for-beginners)
 
@@ -58,3 +59,11 @@
 - [Information about the SSI implementation for the SERIALIZABLE transaction isolation level in PostgreSQL](https://wiki.postgresql.org/wiki/Serializable)
 
 - [Documentation of Serializable Snapshot Isolation (SSI) in PostgreSQL compared to plain Snapshot Isolation (SI)](https://wiki.postgresql.org/wiki/SSI)
+
+## Specific topics and tips
+
+- [Beware of JSON fields in SQLAlchemy](https://amercader.net/blog/beware-of-json-fields-in-sqlalchemy/)
+
+## Advanced
+
+- [Divided We Stand: The SQL of Relational Division](https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/divided-we-stand-the-sql-of-relational-division/)
