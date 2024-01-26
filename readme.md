@@ -42,8 +42,6 @@
 
 - [Choosing a Postgres Primary Key](https://supabase.com/blog/choosing-a-postgres-primary-key)
 
-- [What is the deal with NULLs?](http://thoughts.davisjeff.com/2009/08/02/what-is-the-deal-with-nulls/)
-
 - [Transaction ID Wraparound in Postgres](https://blog.sentry.io/transaction-id-wraparound-in-postgres/)
 
 - [Alembic: How to add a non-nullable field to a populated table](https://archive.is/JY4lq)
@@ -69,6 +67,10 @@
 ## Specific topics and tips
 
 - [The Many Faces of DISTINCT in PostgreSQL](https://hakibenita.com/the-many-faces-of-distinct-in-postgre-sql) is a great blog post explaining four different uses of `DISTINCT` in PostgreSQL. I didn't even know there were that many different `DISTINCT` ways. One of them, `DISTINCT ON`, is particularly elegant and useful.
+
+- [What is the deal with NULLs?](http://thoughts.davisjeff.com/2009/08/02/what-is-the-deal-with-nulls/) is a call to "not attempt to apply your intellect to `NULL`". The author lists all the weird conditions, exceptions and irregularities in dealing with `NULL` values, which might confuse you, but proves the point rather conclusively.
+
+- [SQL NULL - Indicating the Absence of Data](https://modern-sql.com/concept/null)
 
 - [Beware of JSON fields in SQLAlchemy](https://amercader.net/blog/beware-of-json-fields-in-sqlalchemy/)
 
