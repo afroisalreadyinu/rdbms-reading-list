@@ -28,13 +28,17 @@
 
 ## Videos
 
+- [B-tree indexes - learn more about the heart of PostgreSQL](https://www.youtube.com/watch?v=n5-xEEQFqPY)
+
 - [Markus Winand - The Mother of all Query Languages: SQL in the 21st Century](https://www.youtube.com/watch?v=8Fb5Qgpr03g): This talk is on how SQL has changed through the standards published in 1999, 2003 and 2016. It is also a bit sobering as Winand mentions features present in latest SQL standard but did not yet get implemented in PostgreSQL, even after 7 years.
+
+- [EXPLAIN Explained](https://www.youtube.com/watch?app=desktop&v=mCwwFAl1pBU)
 
 ## Blog posts
 
 - [10 Easy Steps to a Complete Understanding of SQL](https://blog.jooq.org/10-easy-steps-to-a-complete-understanding-of-sql/): This classic blog post is a good review of the most important differences of SQL and relational differences to the most commonly used class of development language, imperative languages. It's a very good starting point for developers who can't wrap their heads around SQL, and need a frame for reorienting their understanding of relational data technologies.
 
-- [10 Postgres tips for beginners](https://postgres.ai/blog/20230722-10-postgres-tips-for-beginners)
+- [10 Postgres tips for beginners](https://postgres.ai/blog/20230722-10-postgres-tips-for-beginners) is a list of useful tips for those working with PostgreSQL as developers and who want to get the most out of it. Each tip also links to a detailed discussion on the Postgres.fm podcast, with even more links.
 
 - [Choosing a Postgres Primary Key](https://supabase.com/blog/choosing-a-postgres-primary-key)
 
@@ -54,6 +58,8 @@
 
 - [10 Things I Hate About PostgreSQL](https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791)
 
+- [Why Uber Engineering Switched from Postgres to MySQL](https://www.uber.com/en-GB/blog/postgres-to-mysql-migration/)
+
 ## Postgresql Wiki and Documentation
 
 - [Information about the SSI implementation for the SERIALIZABLE transaction isolation level in PostgreSQL](https://wiki.postgresql.org/wiki/Serializable)
@@ -61,6 +67,8 @@
 - [Documentation of Serializable Snapshot Isolation (SSI) in PostgreSQL compared to plain Snapshot Isolation (SI)](https://wiki.postgresql.org/wiki/SSI)
 
 ## Specific topics and tips
+
+- [The Many Faces of DISTINCT in PostgreSQL](https://hakibenita.com/the-many-faces-of-distinct-in-postgre-sql) is a great blog post explaining four different uses of `DISTINCT` in PostgreSQL. I didn't even know there were that many different `DISTINCT` ways. One of them, `DISTINCT ON`, is particularly elegant and useful.
 
 - [Beware of JSON fields in SQLAlchemy](https://amercader.net/blog/beware-of-json-fields-in-sqlalchemy/)
 
