@@ -28,11 +28,13 @@
 
 ## Videos
 
-- [B-tree indexes - learn more about the heart of PostgreSQL](https://www.youtube.com/watch?v=n5-xEEQFqPY)
+- [B-tree indexes - learn more about the heart of PostgreSQL](https://www.youtube.com/watch?v=n5-xEEQFqPY): This great talk by Anastasia Lubennikova explains the details, both theoretical and practical, of one of the most important data structure in PostgreSQL: The B-Tree.
 
 - [Markus Winand - The Mother of all Query Languages: SQL in the 21st Century](https://www.youtube.com/watch?v=8Fb5Qgpr03g): This talk is on how SQL has changed through the standards published in 1999, 2003 and 2016. It is also a bit sobering as Winand mentions features present in latest SQL standard but did not yet get implemented in PostgreSQL, even after 7 years.
 
 - [EXPLAIN Explained](https://www.youtube.com/watch?app=desktop&v=mCwwFAl1pBU)
+
+- [CMU Intro to Database Systems from Andy Pavlo](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi)
 
 ## Blog posts
 
@@ -44,8 +46,6 @@
 
 - [Transaction ID Wraparound in Postgres](https://blog.sentry.io/transaction-id-wraparound-in-postgres/)
 
-- [Alembic: How to add a non-nullable field to a populated table](https://archive.is/JY4lq)
-
 - [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 
 - [Debugging PostgreSQL performance, the hard way](https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/)
@@ -54,15 +54,13 @@
 
 - [My Favorite PostgreSQL Queries and Why They Matter](https://severalnines.com/blog/my-favorite-postgresql-queries-and-why-they-matter)
 
-- [10 Things I Hate About PostgreSQL](https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791)
-
-- [Why Uber Engineering Switched from Postgres to MySQL](https://www.uber.com/en-GB/blog/postgres-to-mysql-migration/)
-
 ## Postgresql Wiki and Documentation
 
 - [Information about the SSI implementation for the SERIALIZABLE transaction isolation level in PostgreSQL](https://wiki.postgresql.org/wiki/Serializable)
 
 - [Documentation of Serializable Snapshot Isolation (SSI) in PostgreSQL compared to plain Snapshot Isolation (SI)](https://wiki.postgresql.org/wiki/SSI)
+
+- [Index-Only Scans and Covering Indexes](https://www.postgresql.org/docs/current/indexes-index-only-scans.html)
 
 ## Specific topics and tips
 
@@ -70,10 +68,24 @@
 
 - [What is the deal with NULLs?](http://thoughts.davisjeff.com/2009/08/02/what-is-the-deal-with-nulls/) is a call to "not attempt to apply your intellect to `NULL`". The author lists all the weird conditions, exceptions and irregularities in dealing with `NULL` values, which might confuse you, but proves the point rather conclusively.
 
+- [Alembic: How to add a non-nullable field to a populated table](https://archive.is/JY4lq)
+
 - [SQL NULL - Indicating the Absence of Data](https://modern-sql.com/concept/null)
 
 - [Beware of JSON fields in SQLAlchemy](https://amercader.net/blog/beware-of-json-fields-in-sqlalchemy/)
 
+## Criticism
+
+- [10 Things I Hate About PostgreSQL](https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791)
+
+- [Why Uber Engineering Switched from Postgres to MySQL](https://www.uber.com/en-GB/blog/postgres-to-mysql-migration/): This post is a bit outdated (7 years old, concerns version 9.5), but the criticisms and their underlying reasons in the implementation decisions is rather informative. The authors discuss how the immutable data approach of PostgreSQL leads to write amplification on disk and for replication. Another issue Uber engineering ran into was the interplay of MVCC and replication. In one instance, a bug (now fixed) caused WAL to be misapplied in a new replica, and generally, transactions on replicas are killed when they block replication updates. MySQL, due to the differences in how it does row storage, MVCC and, replication ends up being a better choice for Uber. Also see the discussion of this post [discussion on the pgsql-hackers list](https://www.postgresql.org/message-id/flat/579795DF.10502%40commandprompt.com). Also see [this response](https://www.2ndquadrant.com/en/blog/thoughts-on-ubers-list-of-postgres-limitations/) from 2ndQuadrant.
+
+- [The part of PostgreSQL we hate the most](https://ottertune.com/blog/the-part-of-postgresql-we-hate-the-most)
+
 ## Advanced
 
 - [Divided We Stand: The SQL of Relational Division](https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/divided-we-stand-the-sql-of-relational-division/)
+
+## Tools
+
+- [pg_repack](https://reorg.github.io/pg_repack/)
