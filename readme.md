@@ -89,3 +89,9 @@
 ## Tools
 
 - [pg_repack](https://reorg.github.io/pg_repack/)
+
+- [pg_probackup](https://github.com/postgrespro/pg_probackup)
+
+- [pghero](https://github.com/ankane/pghero)
+
+- [PGExplait](https://www.pgexplain.dev/)
