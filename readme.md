@@ -54,6 +54,10 @@
 
 - [My Favorite PostgreSQL Queries and Why They Matter](https://severalnines.com/blog/my-favorite-postgresql-queries-and-why-they-matter)
 
+- [10 Things I Hate About PostgreSQL](https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791)
+
+- [Unexplanations: sql is syntactic sugar for relational algebra](https://www.scattered-thoughts.net/writing/unexplanations-sql-is-syntactic-sugar-for-relational-algebra/)
+
 ## Postgresql Wiki and Documentation
 
 - [Information about the SSI implementation for the SERIALIZABLE transaction isolation level in PostgreSQL](https://wiki.postgresql.org/wiki/Serializable)
