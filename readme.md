@@ -78,6 +78,10 @@
 
 - [Beware of JSON fields in SQLAlchemy](https://amercader.net/blog/beware-of-json-fields-in-sqlalchemy/)
 
+## Case studies
+
+- [How Figma’s databases team lived to tell the scale](https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/)
+
 ## Criticism
 
 - [10 Things I Hate About PostgreSQL](https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791)
@@ -85,6 +89,8 @@
 - [Why Uber Engineering Switched from Postgres to MySQL](https://www.uber.com/en-GB/blog/postgres-to-mysql-migration/): This post is a bit outdated (7 years old, concerns version 9.5), but the criticisms and their underlying reasons in the implementation decisions is rather informative. The authors discuss how the immutable data approach of PostgreSQL leads to write amplification on disk and for replication. Another issue Uber engineering ran into was the interplay of MVCC and replication. In one instance, a bug (now fixed) caused WAL to be misapplied in a new replica, and generally, transactions on replicas are killed when they block replication updates. MySQL, due to the differences in how it does row storage, MVCC and, replication ends up being a better choice for Uber. Also see the discussion of this post [discussion on the pgsql-hackers list](https://www.postgresql.org/message-id/flat/579795DF.10502%40commandprompt.com). Also see [this response](https://www.2ndquadrant.com/en/blog/thoughts-on-ubers-list-of-postgres-limitations/) from 2ndQuadrant.
 
 - [The part of PostgreSQL we hate the most](https://ottertune.com/blog/the-part-of-postgresql-we-hate-the-most)
+
+- [ MySQL vs. PostgreSQL, Part 1: Table Organization](http://rhaas.blogspot.com/2010/11/mysql-vs-postgresql-part-1-table.html) and [MySQL vs. PostgreSQL, Part 2: VACUUM vs. Purge](http://rhaas.blogspot.com/2011/02/mysql-vs-postgresql-part-2-vacuum-vs.html)
 
 ## Advanced
 
