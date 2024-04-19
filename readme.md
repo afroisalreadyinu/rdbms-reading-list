@@ -26,6 +26,10 @@
 
 - [The Internals of PostgreSQL](http://www.interdb.jp/pg/index.html)
 
+- [The Querynomicon: An Introduction to SQL for Weary Data Scientists](https://gvwilson.github.io/sql-tutorial/)
+
+- [Practical SQL for Data Analysis](https://hakibenita.com/sql-for-data-analysis)
+
 ## Videos
 
 - [B-tree indexes - learn more about the heart of PostgreSQL](https://www.youtube.com/watch?v=n5-xEEQFqPY): This great talk by Anastasia Lubennikova explains the details, both theoretical and practical, of one of the most important data structure in PostgreSQL: The B-Tree.
