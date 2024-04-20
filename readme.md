@@ -30,6 +30,8 @@
 
 - [Practical SQL for Data Analysis](https://hakibenita.com/sql-for-data-analysis)
 
+- [Step by step guide to becoming a modern PostgreSQL DB Administrator in 2024](https://roadmap.sh/postgresql-dba)
+
 ## Videos
 
 - [B-tree indexes - learn more about the heart of PostgreSQL](https://www.youtube.com/watch?v=n5-xEEQFqPY): This great talk by Anastasia Lubennikova explains the details, both theoretical and practical, of one of the most important data structure in PostgreSQL: The B-Tree.
