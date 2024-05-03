@@ -14,8 +14,6 @@
 
 - [PostgreSQL Query Optimization: The Ultimate Guide to Building Efficient Queries 2nd ed. Edition ](https://www.amazon.com/PostgreSQL-Query-Optimization-Ultimate-Efficient/dp/B0CK5GWWQ1)
 
-- [PostgreSQL Query Optimization: The Ultimate Guide to Building Efficient Queries](https://www.oreilly.com/library/view/postgresql-query-optimization/9781484268858/)
-
 ## Websites and tutorials
 
 - [PostgreSQL Exercises](https://pgexercises.com/): Nicely organized tutorial for beginner-level, PostgreSQL-flavored SQL. A single dataset is used to present the basics such as querying, joins, DML and aggregates. One shortcoming is that an old version of PostgreSQL is targeted (9.5; for example, it is assumed that columns cannot be in `group by` clauses).
@@ -36,11 +34,13 @@
 
 - [B-tree indexes - learn more about the heart of PostgreSQL](https://www.youtube.com/watch?v=n5-xEEQFqPY): This great talk by Anastasia Lubennikova explains the details, both theoretical and practical, of one of the most important data structure in PostgreSQL: The B-Tree.
 
-- [Markus Winand - The Mother of all Query Languages: SQL in the 21st Century](https://www.youtube.com/watch?v=8Fb5Qgpr03g): This talk is on how SQL has changed through the standards published in 1999, 2003 and 2016. It is also a bit sobering as Winand mentions features present in latest SQL standard but did not yet get implemented in PostgreSQL, even after 7 years.
+- [The Mother of all Query Languages: SQL in the 21st Century](https://www.youtube.com/watch?v=8Fb5Qgpr03g) by Markus Winand: This talk is on how SQL has changed through the standards published in 1999, 2003 and 2016. It is also a bit sobering as Winand mentions features present in latest SQL standard but did not yet get implemented in PostgreSQL, even after 7 years.
 
 - [EXPLAIN Explained](https://www.youtube.com/watch?app=desktop&v=mCwwFAl1pBU)
 
-- [CMU Intro to Database Systems from Andy Pavlo](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi)
+- [CMU Intro to Database Systems](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi) from Andy Pavlo
+
+- [How Modern SQL Databases Come up with Algorithms that You Would Have Never Dreamed Of](https://www.youtube.com/watch?v=wTPGW1PNy_Y) by Lukas Eder
 
 ## Blog posts
 
@@ -62,7 +62,7 @@
 
 - [10 Things I Hate About PostgreSQL](https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791)
 
-- [Unexplanations: sql is syntactic sugar for relational algebra](https://www.scattered-thoughts.net/writing/unexplanations-sql-is-syntactic-sugar-for-relational-algebra/)
+- [Unexplanations: sql is syntactic sugar for relational algebra](https://www.scattered-thoughts.net/writing/unexplanations-sql-is-syntactic-sugar-for-relational-algebra/). See also [Unexplanations: relational algebra is math](https://www.scattered-thoughts.net/writing/unexplanations-relational-algebra-is-math/)
 
 ## Postgresql Wiki and Documentation
 
@@ -97,6 +97,8 @@
 - [The part of PostgreSQL we hate the most](https://ottertune.com/blog/the-part-of-postgresql-we-hate-the-most)
 
 - [ MySQL vs. PostgreSQL, Part 1: Table Organization](http://rhaas.blogspot.com/2010/11/mysql-vs-postgresql-part-1-table.html) and [MySQL vs. PostgreSQL, Part 2: VACUUM vs. Purge](http://rhaas.blogspot.com/2011/02/mysql-vs-postgresql-part-2-vacuum-vs.html)
+
+- [Serious Flaws in SQL](https://dl.acm.org/doi/10.5555/77708.C1065772) by none other than E. F. Codd
 
 ## Advanced
 
