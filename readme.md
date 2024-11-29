@@ -30,6 +30,8 @@
 
 - [Step by step guide to becoming a modern PostgreSQL DB Administrator in 2024](https://roadmap.sh/postgresql-dba)
 
+- [Mastering Postgres](https://masteringpostgres.com/) is a new video course that you need to pay for. I haven't tried it, but might be wort having a look.
+
 ## Videos
 
 - [B-tree indexes - learn more about the heart of PostgreSQL](https://www.youtube.com/watch?v=n5-xEEQFqPY): This great talk by Anastasia Lubennikova explains the details, both theoretical and practical, of one of the most important data structure in PostgreSQL: The B-Tree.
