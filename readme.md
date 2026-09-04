@@ -44,6 +44,8 @@
 
 - [How Modern SQL Databases Come up with Algorithms that You Would Have Never Dreamed Of](https://www.youtube.com/watch?v=wTPGW1PNy_Y) by Lukas Eder
 
+- [Anatomy of table level locks in Postgresql](https://www.youtube.com/watch?v=DLwGuv1QVQU)
+
 ## Blog posts
 
 - [10 Easy Steps to a Complete Understanding of SQL](https://blog.jooq.org/10-easy-steps-to-a-complete-understanding-of-sql/): This classic blog post is a good review of the most important differences of SQL and relational differences to the most commonly used class of development language, imperative languages. It's a very good starting point for developers who can't wrap their heads around SQL, and need a frame for reorienting their understanding of relational data technologies.
